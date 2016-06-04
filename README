@@ -1,0 +1,19 @@
+polt_crawl is a web crawler for Dominion Energy that returns a subset off energy releated information, below is an example of the output 
+
+
+Example output:
+Bill due date: June 8, 2016
+Bill amount: $0.00
+Service start date: 05/13/2016
+Usage (kwh): 700
+Next Meter Read date: June 14, 2016
+
+Prereqs:
+gem install capybara
+gem install poltergeist
+gem install phantomjs
+sudo apt-get install phantomjs
+
+
+Usage: 
+ruby polt_crawl.rb username password 
